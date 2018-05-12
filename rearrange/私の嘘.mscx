@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.2</programVersion>
-  <programRevision>3543170</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -182,8 +182,8 @@
           <text><sym>unicodeNoteQuarterUp</sym> = 90</text>
           </Tempo>
         <Harmony>
-          <root>17</root>
-          <name>m</name>
+          <root>13</root>
+          <name>maj7</name>
           <pos x="0.306023" y="-4.48915"/>
           </Harmony>
         <Chord>
@@ -245,11 +245,6 @@
             <string>0</string>
             </Note>
           </Chord>
-        <Harmony>
-          <root>16</root>
-          <name>m</name>
-          <pos x="0" y="-2.7"/>
-          </Harmony>
         <Chord>
           <lid>410</lid>
           <durationType>quarter</durationType>
@@ -545,15 +540,19 @@
           </Rest>
         </Measure>
       <Measure number="8">
+        <Harmony>
+          <root>16</root>
+          <name>m</name>
+          </Harmony>
         <Chord>
           <lid>507</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>508</lid>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -561,10 +560,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>510</lid>
-            <pitch>50</pitch>
+            <pitch>62</pitch>
             <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
+            <fret>3</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -572,81 +571,184 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>512</lid>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>649</lid>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>650</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <tick>10800</tick>
+        <Chord>
+          <lid>651</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>652</lid>
+            <track>1</track>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>5</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>653</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>654</lid>
+            <track>1</track>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>655</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>656</lid>
+            <track>1</track>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            <fret>0</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <Chord>
+          <lid>657</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>658</lid>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <fret>3</fret>
             <string>3</string>
             </Note>
           </Chord>
         <Chord>
           <lid>513</lid>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <lid>514</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            <fret>2</fret>
+            <string>2</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="9">
-        <Rest>
-          <lid>671</lid>
+        <Chord>
+          <lid>515</lid>
           <durationType>eighth</durationType>
-          </Rest>
+          <Note>
+            <lid>516</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <Chord>
           <lid>517</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>518</lid>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <fret>0</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>519</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>520</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>521</lid>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>522</lid>
+            <lid>518</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <tick>12240</tick>
+        <Chord>
+          <lid>659</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>660</lid>
+            <track>1</track>
             <pitch>43</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
             <string>5</string>
             </Note>
           </Chord>
-        <tick>12720</tick>
-        <Rest>
-          <lid>672</lid>
+        <Chord>
+          <lid>661</lid>
           <track>1</track>
           <durationType>eighth</durationType>
-          </Rest>
+          <Note>
+            <lid>662</lid>
+            <track>1</track>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>663</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>664</lid>
+            <track>1</track>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            <fret>0</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="10">
+        <Chord>
+          <lid>519</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>520</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>521</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>522</lid>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <Chord>
           <lid>523</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>524</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -654,10 +756,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>526</lid>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -665,10 +767,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>528</lid>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -676,21 +778,65 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>530</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
+        <tick>13680</tick>
+        <Chord>
+          <lid>614</lid>
+          <track>1</track>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>615</lid>
+            <track>1</track>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>5</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>672</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>673</lid>
+            <track>1</track>
+            <Tie id="10">
+              <lid>676</lid>
+              <track>1</track>
+              </Tie>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
         <Chord>
           <lid>531</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>532</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>668</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>669</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>6</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -698,37 +844,21 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>534</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
-        <tick>13680</tick>
-        <Chord>
-          <lid>629</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>630</lid>
-            <track>1</track>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11">
         <Chord>
           <lid>535</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>536</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -736,6 +866,48 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>538</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>539</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>677</lid>
+            <Tie id="11">
+              <lid>784</lid>
+              </Tie>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>14400</tick>
+        <Chord>
+          <lid>674</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>675</lid>
+            <track>1</track>
+            <endSpanner id="10"/>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>670</lid>
+          <track>1</track>
+          <durationType>half</durationType>
+          <Note>
+            <lid>671</lid>
+            <track>1</track>
             <pitch>53</pitch>
             <tpc>13</tpc>
             <fret>3</fret>
@@ -743,90 +915,29 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>539</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>540</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>541</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>542</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>543</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>544</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>545</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>546</lid>
-            <Tie id="10">
-              </Tie>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            <fret>0</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
-        <tick>15600</tick>
-        <Chord>
-          <lid>631</lid>
+          <lid>616</lid>
           <track>1</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>632</lid>
+            <lid>617</lid>
             <track>1</track>
-            <Tie id="11">
+            <Tie id="12">
               <track>1</track>
               </Tie>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <tick>14640</tick>
-        <Chord>
-          <lid>656</lid>
-          <track>2</track>
-          <durationType>half</durationType>
-          <Note>
-            <lid>657</lid>
-            <track>2</track>
-            <pitch>65</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>0</string>
+            <fret>3</fret>
+            <string>3</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="12">
         <Chord>
-          <lid>547</lid>
+          <lid>782</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>548</lid>
-            <endSpanner id="10"/>
+            <lid>783</lid>
+            <endSpanner id="11"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <fret>0</fret>
@@ -834,65 +945,241 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>549</lid>
+          <lid>540</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>550</lid>
+            <lid>541</lid>
+            <Tie id="13">
+              <lid>814</lid>
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             <fret>3</fret>
             <string>1</string>
             </Note>
           </Chord>
-        <Rest>
-          <lid>551</lid>
+        <Chord>
+          <lid>812</lid>
           <durationType>half</durationType>
-          </Rest>
+          <Note>
+            <lid>813</lid>
+            <endSpanner id="13"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <tick>15840</tick>
         <Chord>
-          <lid>633</lid>
+          <lid>618</lid>
           <track>1</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>634</lid>
+            <lid>619</lid>
             <track>1</track>
-            <endSpanner id="11"/>
-            <pitch>41</pitch>
+            <endSpanner id="12"/>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <fret>3</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>776</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>777</lid>
+            <track>1</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>5</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>622</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>623</lid>
+            <track>1</track>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>624</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>625</lid>
+            <track>1</track>
+            <pitch>65</pitch>
             <tpc>13</tpc>
             <fret>1</fret>
-            <string>5</string>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>635</lid>
+          <lid>626</lid>
           <track>1</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>636</lid>
+            <lid>627</lid>
             <track>1</track>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>637</lid>
+          <lid>628</lid>
           <track>1</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>638</lid>
+            <lid>629</lid>
             <track>1</track>
-            <pitch>43</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
-            <string>5</string>
+            <string>0</string>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="13">
+        <Rest>
+          <lid>827</lid>
+          <durationType>half</durationType>
+          </Rest>
+        <Chord>
+          <lid>544</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>545</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>17280</tick>
+        <Chord>
+          <lid>630</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>631</lid>
+            <track>1</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>807</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>808</lid>
+            <track>1</track>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>634</lid>
+          <track>1</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>635</lid>
+            <track>1</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="14">
+        <Chord>
+          <lid>546</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>547</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>548</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>549</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>550</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>551</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>552</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>553</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>554</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>555</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>556</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>557</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>18960</tick>
         <Chord>
           <lid>639</lid>
           <track>1</track>
-          <durationType>eighth</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>640</lid>
             <track>1</track>
@@ -903,534 +1190,316 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>641</lid>
+          <lid>683</lid>
           <track>1</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>642</lid>
+            <lid>684</lid>
             <track>1</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            <fret>2</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <Chord>
+          <lid>558</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>559</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>5</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>643</lid>
-          <track>1</track>
+          <lid>560</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>644</lid>
-            <track>1</track>
+            <lid>561</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>562</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>563</lid>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>0</fret>
             <string>2</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="13">
         <Chord>
-          <lid>552</lid>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>553</lid>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
-        <Rest>
-          <lid>554</lid>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <lid>555</lid>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>556</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <tick>17280</tick>
-        <Chord>
-          <lid>645</lid>
-          <track>1</track>
+          <lid>564</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>646</lid>
-            <track>1</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>647</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>648</lid>
-            <track>1</track>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>649</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>650</lid>
-            <track>1</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Rest>
-          <lid>651</lid>
-          <track>1</track>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <lid>652</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="14">
-        <Chord>
-          <lid>557</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>558</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>559</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>560</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>561</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>562</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>563</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>564</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>565</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>566</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>567</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>568</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <tick>18720</tick>
-        <Rest>
-          <lid>653</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <lid>654</lid>
-          <track>1</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>655</lid>
-            <track>1</track>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <tick>19920</tick>
-        <Chord>
-          <lid>658</lid>
-          <track>2</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>659</lid>
-            <track>2</track>
-            <Tie id="12">
-              <track>2</track>
-              </Tie>
+            <lid>565</lid>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <fret>0</fret>
             <string>0</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="15">
         <Chord>
-          <lid>569</lid>
+          <lid>566</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>570</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>571</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>572</lid>
-            <pitch>48</pitch>
+            <lid>567</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>573</lid>
+          <lid>568</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>574</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>575</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>576</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>577</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>578</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>579</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>580</lid>
-            <pitch>53</pitch>
+            <lid>569</lid>
+            <pitch>65</pitch>
             <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <fret>6</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>20160</tick>
-        <Chord>
-          <lid>660</lid>
-          <track>2</track>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>661</lid>
-            <track>2</track>
-            <endSpanner id="12"/>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            <fret>0</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
+        <Rest>
+          <lid>830</lid>
+          <track>1</track>
+          <durationType>measure</durationType>
+          <duration z="3" n="4"/>
+          </Rest>
         <tick>21360</tick>
         <Chord>
-          <lid>662</lid>
+          <lid>641</lid>
           <track>2</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>663</lid>
+            <lid>642</lid>
             <track>2</track>
-            <Tie id="13">
+            <Tie id="14">
               <track>2</track>
               </Tie>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
-            <fret>3</fret>
-            <string>1</string>
+            <fret>10</fret>
+            <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="16">
         <Chord>
-          <lid>581</lid>
+          <lid>570</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>582</lid>
-            <pitch>52</pitch>
+            <lid>571</lid>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>5</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>583</lid>
+          <lid>572</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>584</lid>
-            <pitch>48</pitch>
+            <lid>573</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>585</lid>
+          <lid>574</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>586</lid>
-            <pitch>43</pitch>
+            <lid>575</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>587</lid>
+          <lid>576</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>588</lid>
-            <pitch>53</pitch>
+            <lid>577</lid>
+            <pitch>65</pitch>
             <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <fret>1</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>589</lid>
+          <lid>578</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>590</lid>
-            <pitch>52</pitch>
+            <lid>579</lid>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>591</lid>
+          <lid>580</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>592</lid>
-            <pitch>48</pitch>
+            <lid>581</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>21600</tick>
         <Chord>
-          <lid>664</lid>
+          <lid>643</lid>
           <track>2</track>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>665</lid>
+            <lid>644</lid>
             <track>2</track>
-            <endSpanner id="13"/>
-            <pitch>62</pitch>
+            <endSpanner id="14"/>
+            <pitch>74</pitch>
             <tpc>16</tpc>
-            <fret>3</fret>
-            <string>1</string>
+            <fret>10</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <tick>22800</tick>
         <Chord>
-          <lid>666</lid>
+          <lid>645</lid>
           <track>2</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>667</lid>
+            <lid>646</lid>
             <track>2</track>
-            <Tie id="14">
+            <Tie id="15">
               <track>2</track>
               </Tie>
-            <pitch>67</pitch>
+            <pitch>79</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
+            <fret>15</fret>
             <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="17">
         <Chord>
-          <lid>593</lid>
+          <lid>582</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>594</lid>
-            <pitch>43</pitch>
+            <lid>583</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>595</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>596</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>597</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>598</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>599</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>600</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>601</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>602</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>603</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>604</lid>
-            <Tie id="15">
-              </Tie>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
             <fret>0</fret>
-            <string>3</string>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>584</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>585</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>586</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>587</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>588</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>589</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>590</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>591</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>592</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>593</lid>
+            <Tie id="16">
+              </Tie>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>23040</tick>
         <Chord>
-          <lid>668</lid>
+          <lid>647</lid>
           <track>2</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>669</lid>
+            <lid>648</lid>
             <track>2</track>
-            <endSpanner id="14"/>
-            <pitch>67</pitch>
+            <endSpanner id="15"/>
+            <pitch>79</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
+            <fret>15</fret>
             <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="18">
         <Chord>
-          <lid>605</lid>
+          <lid>594</lid>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>606</lid>
-            <endSpanner id="15"/>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>607</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>608</lid>
-            <Tie id="16">
-              </Tie>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>609</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>610</lid>
+            <lid>595</lid>
             <endSpanner id="16"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>596</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>833</lid>
             <pitch>43</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
@@ -1438,11 +1507,12 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>611</lid>
+          <lid>844</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>612</lid>
+            <lid>845</lid>
             <Tie id="17">
+              <lid>848</lid>
               </Tie>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -1453,10 +1523,10 @@
         </Measure>
       <Measure number="19">
         <Chord>
-          <lid>613</lid>
+          <lid>846</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>614</lid>
+            <lid>847</lid>
             <endSpanner id="17"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
@@ -1465,10 +1535,10 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>615</lid>
+          <lid>604</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>616</lid>
+            <lid>605</lid>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>0</fret>
@@ -1476,48 +1546,48 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>617</lid>
+          <lid>606</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>618</lid>
-            <pitch>67</pitch>
+            <lid>607</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>619</lid>
+          <lid>608</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>620</lid>
+            <lid>609</lid>
             <Tie id="18">
               </Tie>
-            <pitch>67</pitch>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="20">
         <Chord>
-          <lid>621</lid>
+          <lid>610</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>622</lid>
+            <lid>611</lid>
             <endSpanner id="18"/>
-            <pitch>67</pitch>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>623</lid>
+          <lid>612</lid>
           <durationType>half</durationType>
           <Note>
-            <lid>624</lid>
+            <lid>613</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             <fret>7</fret>
@@ -4793,10 +4863,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>508</lid>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -4804,10 +4874,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>510</lid>
-            <pitch>50</pitch>
+            <pitch>62</pitch>
             <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
+            <fret>3</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -4815,81 +4885,184 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>512</lid>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>649</lid>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>650</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <tick>10800</tick>
+        <Chord>
+          <lid>651</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>652</lid>
+            <track>5</track>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>5</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>653</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>654</lid>
+            <track>5</track>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>655</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>656</lid>
+            <track>5</track>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            <fret>0</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <Chord>
+          <lid>657</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>658</lid>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <fret>3</fret>
             <string>3</string>
             </Note>
           </Chord>
         <Chord>
           <lid>513</lid>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
             <lid>514</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            <fret>2</fret>
+            <string>2</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="9">
-        <Rest>
-          <lid>671</lid>
+        <Chord>
+          <lid>515</lid>
           <durationType>eighth</durationType>
-          </Rest>
+          <Note>
+            <lid>516</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <Chord>
           <lid>517</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>518</lid>
-            <pitch>45</pitch>
-            <tpc>17</tpc>
-            <fret>0</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>519</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>520</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>521</lid>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>522</lid>
+            <lid>518</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <tick>12240</tick>
+        <Chord>
+          <lid>659</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>660</lid>
+            <track>5</track>
             <pitch>43</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
             <string>5</string>
             </Note>
           </Chord>
-        <tick>12720</tick>
-        <Rest>
-          <lid>672</lid>
+        <Chord>
+          <lid>661</lid>
           <track>5</track>
           <durationType>eighth</durationType>
-          </Rest>
+          <Note>
+            <lid>662</lid>
+            <track>5</track>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>663</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>664</lid>
+            <track>5</track>
+            <pitch>50</pitch>
+            <tpc>16</tpc>
+            <fret>0</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
         </Measure>
       <Measure number="10">
+        <Chord>
+          <lid>519</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>520</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>521</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>522</lid>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <Chord>
           <lid>523</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>524</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -4897,10 +5070,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>526</lid>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -4908,10 +5081,10 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>528</lid>
-            <pitch>52</pitch>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
@@ -4919,21 +5092,65 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>530</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
+        <tick>13680</tick>
+        <Chord>
+          <lid>614</lid>
+          <track>5</track>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>615</lid>
+            <track>5</track>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>5</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>672</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>673</lid>
+            <track>5</track>
+            <Tie id="29">
+              <lid>676</lid>
+              <track>5</track>
+              </Tie>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
         <Chord>
           <lid>531</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>532</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>668</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>669</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>6</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -4941,37 +5158,21 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>534</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
-        <tick>13680</tick>
-        <Chord>
-          <lid>629</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>630</lid>
-            <track>5</track>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11">
         <Chord>
           <lid>535</lid>
           <durationType>eighth</durationType>
           <Note>
             <lid>536</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
@@ -4979,6 +5180,48 @@
           <durationType>eighth</durationType>
           <Note>
             <lid>538</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>539</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>677</lid>
+            <Tie id="30">
+              <lid>784</lid>
+              </Tie>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>14400</tick>
+        <Chord>
+          <lid>674</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>675</lid>
+            <track>5</track>
+            <endSpanner id="29"/>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <fret>3</fret>
+            <string>4</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>670</lid>
+          <track>5</track>
+          <durationType>half</durationType>
+          <Note>
+            <lid>671</lid>
+            <track>5</track>
             <pitch>53</pitch>
             <tpc>13</tpc>
             <fret>3</fret>
@@ -4986,90 +5229,29 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>539</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>540</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>541</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>542</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>543</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>544</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>545</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>546</lid>
-            <Tie id="29">
-              </Tie>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            <fret>0</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
-        <tick>15600</tick>
-        <Chord>
-          <lid>631</lid>
+          <lid>616</lid>
           <track>5</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>632</lid>
+            <lid>617</lid>
             <track>5</track>
-            <Tie id="30">
+            <Tie id="31">
               <track>5</track>
               </Tie>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <tick>14640</tick>
-        <Chord>
-          <lid>656</lid>
-          <track>6</track>
-          <durationType>half</durationType>
-          <Note>
-            <lid>657</lid>
-            <track>6</track>
-            <pitch>65</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>0</string>
+            <fret>3</fret>
+            <string>3</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="12">
         <Chord>
-          <lid>547</lid>
+          <lid>782</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>548</lid>
-            <endSpanner id="29"/>
+            <lid>783</lid>
+            <endSpanner id="30"/>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <fret>0</fret>
@@ -5077,65 +5259,241 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>549</lid>
+          <lid>540</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>550</lid>
+            <lid>541</lid>
+            <Tie id="32">
+              <lid>814</lid>
+              </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
             <fret>3</fret>
             <string>1</string>
             </Note>
           </Chord>
-        <Rest>
-          <lid>551</lid>
+        <Chord>
+          <lid>812</lid>
           <durationType>half</durationType>
-          </Rest>
+          <Note>
+            <lid>813</lid>
+            <endSpanner id="32"/>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
         <tick>15840</tick>
         <Chord>
-          <lid>633</lid>
+          <lid>618</lid>
           <track>5</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>634</lid>
+            <lid>619</lid>
             <track>5</track>
-            <endSpanner id="30"/>
-            <pitch>41</pitch>
+            <endSpanner id="31"/>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <fret>3</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>776</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>777</lid>
+            <track>5</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>5</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>622</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>623</lid>
+            <track>5</track>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>624</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>625</lid>
+            <track>5</track>
+            <pitch>65</pitch>
             <tpc>13</tpc>
             <fret>1</fret>
-            <string>5</string>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>635</lid>
+          <lid>626</lid>
           <track>5</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>636</lid>
+            <lid>627</lid>
             <track>5</track>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>637</lid>
+          <lid>628</lid>
           <track>5</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>638</lid>
+            <lid>629</lid>
             <track>5</track>
-            <pitch>43</pitch>
+            <pitch>67</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
-            <string>5</string>
+            <string>0</string>
             </Note>
           </Chord>
+        </Measure>
+      <Measure number="13">
+        <Rest>
+          <lid>827</lid>
+          <durationType>half</durationType>
+          </Rest>
+        <Chord>
+          <lid>544</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>545</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>17280</tick>
+        <Chord>
+          <lid>630</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>631</lid>
+            <track>5</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>807</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>808</lid>
+            <track>5</track>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>634</lid>
+          <track>5</track>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>635</lid>
+            <track>5</track>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="14">
+        <Chord>
+          <lid>546</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>547</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>548</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>549</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>550</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>551</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>552</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>553</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>554</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>555</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>556</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>557</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <tick>18960</tick>
         <Chord>
           <lid>639</lid>
           <track>5</track>
-          <durationType>eighth</durationType>
+          <durationType>half</durationType>
           <Note>
             <lid>640</lid>
             <track>5</track>
@@ -5146,534 +5504,323 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>641</lid>
+          <lid>683</lid>
           <track>5</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>642</lid>
+            <lid>684</lid>
             <track>5</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            <fret>2</fret>
+            <string>3</string>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <Chord>
+          <lid>558</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>559</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>5</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>643</lid>
-          <track>5</track>
+          <lid>560</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>644</lid>
-            <track>5</track>
+            <lid>561</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>562</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>563</lid>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>0</fret>
             <string>2</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="13">
         <Chord>
-          <lid>552</lid>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>553</lid>
-            <pitch>67</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
-        <Rest>
-          <lid>554</lid>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Chord>
-          <lid>555</lid>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>556</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <tick>17280</tick>
-        <Chord>
-          <lid>645</lid>
-          <track>5</track>
+          <lid>564</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>646</lid>
-            <track>5</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>647</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>648</lid>
-            <track>5</track>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>649</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>650</lid>
-            <track>5</track>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Rest>
-          <lid>651</lid>
-          <track>5</track>
-          <durationType>quarter</durationType>
-          </Rest>
-        <Rest>
-          <lid>652</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          </Rest>
-        </Measure>
-      <Measure number="14">
-        <Chord>
-          <lid>557</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>558</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>559</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>560</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>561</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>562</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>563</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>564</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>565</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>566</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>567</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>568</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <tick>18720</tick>
-        <Rest>
-          <lid>653</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          </Rest>
-        <Chord>
-          <lid>654</lid>
-          <track>5</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>655</lid>
-            <track>5</track>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            <fret>1</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <tick>19920</tick>
-        <Chord>
-          <lid>658</lid>
-          <track>6</track>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>659</lid>
-            <track>6</track>
+            <lid>565</lid>
             <pitch>64</pitch>
             <tpc>18</tpc>
             <fret>0</fret>
             <string>0</string>
             </Note>
           </Chord>
-        </Measure>
-      <Measure number="15">
         <Chord>
-          <lid>569</lid>
+          <lid>566</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>570</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>571</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>572</lid>
-            <pitch>48</pitch>
+            <lid>567</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>573</lid>
+          <lid>568</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>574</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>575</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>576</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>577</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>578</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>579</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>580</lid>
-            <pitch>53</pitch>
+            <lid>569</lid>
+            <pitch>65</pitch>
             <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <fret>6</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>20160</tick>
-        <Chord>
-          <lid>660</lid>
-          <track>6</track>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>661</lid>
-            <track>6</track>
-            <pitch>64</pitch>
-            <tpc>18</tpc>
-            <fret>0</fret>
-            <string>0</string>
-            </Note>
-          </Chord>
+        <Rest>
+          <lid>830</lid>
+          <track>5</track>
+          <durationType>measure</durationType>
+          <duration z="3" n="4"/>
+          </Rest>
         <tick>21360</tick>
         <Chord>
-          <lid>662</lid>
+          <lid>641</lid>
           <track>6</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>663</lid>
+            <lid>642</lid>
             <track>6</track>
-            <Tie id="31">
+            <Tie id="33">
               <track>6</track>
               </Tie>
-            <pitch>62</pitch>
+            <pitch>74</pitch>
             <tpc>16</tpc>
-            <fret>3</fret>
-            <string>1</string>
+            <fret>10</fret>
+            <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="16">
         <Chord>
-          <lid>581</lid>
+          <lid>570</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>582</lid>
-            <pitch>52</pitch>
+            <lid>571</lid>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>5</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>583</lid>
+          <lid>572</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>584</lid>
-            <pitch>48</pitch>
+            <lid>573</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>585</lid>
+          <lid>574</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>586</lid>
-            <pitch>43</pitch>
+            <lid>575</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>587</lid>
+          <lid>576</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>588</lid>
-            <pitch>53</pitch>
+            <lid>577</lid>
+            <pitch>65</pitch>
             <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
+            <fret>1</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>589</lid>
+          <lid>578</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>590</lid>
-            <pitch>52</pitch>
+            <lid>579</lid>
+            <pitch>64</pitch>
             <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
+            <fret>0</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>591</lid>
+          <lid>580</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>592</lid>
-            <pitch>48</pitch>
+            <lid>581</lid>
+            <pitch>60</pitch>
             <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
+            <fret>1</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>21600</tick>
         <Chord>
-          <lid>664</lid>
+          <lid>643</lid>
           <track>6</track>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>665</lid>
+            <lid>644</lid>
             <track>6</track>
-            <endSpanner id="31"/>
-            <pitch>62</pitch>
+            <endSpanner id="33"/>
+            <pitch>74</pitch>
             <tpc>16</tpc>
-            <fret>3</fret>
-            <string>1</string>
+            <fret>10</fret>
+            <string>0</string>
             </Note>
           </Chord>
         <tick>22800</tick>
         <Chord>
-          <lid>666</lid>
+          <lid>645</lid>
           <track>6</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>667</lid>
+            <lid>646</lid>
             <track>6</track>
-            <pitch>67</pitch>
+            <pitch>79</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
+            <fret>15</fret>
             <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="17">
         <Chord>
-          <lid>593</lid>
+          <lid>582</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>594</lid>
-            <pitch>43</pitch>
+            <lid>583</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>595</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>596</lid>
-            <pitch>53</pitch>
-            <tpc>13</tpc>
-            <fret>3</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>597</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>598</lid>
-            <pitch>52</pitch>
-            <tpc>18</tpc>
-            <fret>2</fret>
-            <string>3</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>599</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>600</lid>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <fret>3</fret>
-            <string>4</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>601</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>602</lid>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>603</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>604</lid>
-            <pitch>50</pitch>
-            <tpc>16</tpc>
             <fret>0</fret>
-            <string>3</string>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>584</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>585</lid>
+            <pitch>65</pitch>
+            <tpc>13</tpc>
+            <fret>1</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>586</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>587</lid>
+            <pitch>64</pitch>
+            <tpc>18</tpc>
+            <fret>0</fret>
+            <string>0</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>588</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>589</lid>
+            <pitch>60</pitch>
+            <tpc>14</tpc>
+            <fret>1</fret>
+            <string>1</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>590</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>591</lid>
+            <pitch>55</pitch>
+            <tpc>15</tpc>
+            <fret>0</fret>
+            <string>2</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>592</lid>
+          <durationType>eighth</durationType>
+          <Note>
+            <lid>593</lid>
+            <pitch>62</pitch>
+            <tpc>16</tpc>
+            <fret>3</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <tick>23040</tick>
         <Chord>
-          <lid>668</lid>
+          <lid>647</lid>
           <track>6</track>
           <durationType>eighth</durationType>
           <Note>
-            <lid>669</lid>
+            <lid>648</lid>
             <track>6</track>
-            <pitch>67</pitch>
+            <pitch>79</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
+            <fret>15</fret>
             <string>0</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="18">
         <Chord>
-          <lid>605</lid>
+          <lid>594</lid>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <lid>606</lid>
-            <pitch>50</pitch>
+            <lid>595</lid>
+            <pitch>62</pitch>
             <tpc>16</tpc>
-            <fret>0</fret>
-            <string>3</string>
+            <fret>3</fret>
+            <string>1</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>607</lid>
+          <lid>596</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>833</lid>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <fret>3</fret>
+            <string>5</string>
+            </Note>
+          </Chord>
+        <Chord>
+          <lid>844</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>608</lid>
-            <Tie id="32">
+            <lid>845</lid>
+            <Tie id="34">
+              <lid>848</lid>
               </Tie>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>609</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>610</lid>
-            <endSpanner id="32"/>
-            <pitch>43</pitch>
-            <tpc>15</tpc>
-            <fret>3</fret>
-            <string>5</string>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>611</lid>
-          <durationType>eighth</durationType>
-          <Note>
-            <lid>612</lid>
             <pitch>50</pitch>
             <tpc>16</tpc>
             <fret>0</fret>
@@ -5683,10 +5830,11 @@
         </Measure>
       <Measure number="19">
         <Chord>
-          <lid>613</lid>
+          <lid>846</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>614</lid>
+            <lid>847</lid>
+            <endSpanner id="34"/>
             <pitch>50</pitch>
             <tpc>16</tpc>
             <fret>0</fret>
@@ -5694,10 +5842,10 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>615</lid>
+          <lid>604</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>616</lid>
+            <lid>605</lid>
             <pitch>55</pitch>
             <tpc>15</tpc>
             <fret>0</fret>
@@ -5705,48 +5853,48 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>617</lid>
+          <lid>606</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>618</lid>
-            <pitch>67</pitch>
+            <lid>607</lid>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>619</lid>
+          <lid>608</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>620</lid>
-            <Tie id="33">
+            <lid>609</lid>
+            <Tie id="35">
               </Tie>
-            <pitch>67</pitch>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         </Measure>
       <Measure number="20">
         <Chord>
-          <lid>621</lid>
+          <lid>610</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>622</lid>
-            <endSpanner id="33"/>
-            <pitch>67</pitch>
+            <lid>611</lid>
+            <endSpanner id="35"/>
+            <pitch>55</pitch>
             <tpc>15</tpc>
-            <fret>3</fret>
-            <string>0</string>
+            <fret>0</fret>
+            <string>2</string>
             </Note>
           </Chord>
         <Chord>
-          <lid>623</lid>
+          <lid>612</lid>
           <durationType>half</durationType>
           <Note>
-            <lid>624</lid>
+            <lid>613</lid>
             <pitch>71</pitch>
             <tpc>19</tpc>
             <fret>7</fret>
@@ -6727,7 +6875,7 @@
           <durationType>half</durationType>
           <Note>
             <lid>50</lid>
-            <Tie id="34">
+            <Tie id="36">
               <lid>53</lid>
               </Tie>
             <pitch>62</pitch>
@@ -6783,7 +6931,7 @@
           <durationType>half</durationType>
           <Note>
             <lid>52</lid>
-            <endSpanner id="34"/>
+            <endSpanner id="36"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             <fret>3</fret>
@@ -8423,7 +8571,7 @@
           <durationType>half</durationType>
           <Note>
             <lid>158</lid>
-            <Tie id="35">
+            <Tie id="37">
               <lid>163</lid>
               </Tie>
             <pitch>67</pitch>
@@ -8439,7 +8587,7 @@
           <durationType>half</durationType>
           <Note>
             <lid>160</lid>
-            <endSpanner id="35"/>
+            <endSpanner id="37"/>
             <pitch>67</pitch>
             <tpc>15</tpc>
             <fret>3</fret>
